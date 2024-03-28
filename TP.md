@@ -5,7 +5,7 @@
 
 1. **hadoop fs : cette commande affiche la liste des commandes supportées par HDFS (Vous pouvez utiliser la commande hdfs dfs, les deux commandes sont équivalente).Quelle est la difference ?**
 
-Il n'y a pas de différence fonctionnelle entre hadoop fs et hdfs dfs. Les deux commandes offrent des fonctionnalités similaires pour interagir avec le système de fichiers Hadoop (HDFS). La principale distinction réside dans leur appelation; hadoop fs peut être utilisée pour interagir avec d'autres systèmes de fichiers en plus de HDFS, grâce à l'abstraction FileSystem d'Hadoop, tandis que hdfs dfs est spécifiquement conçue pour HDFS.
+Pas de différence fonctionnelle entre hadoop fs et hdfs dfs. La principale différence est dans leur appelation; hadoop fs peut être utilisée pour interagir avec d'autres systèmes de fichiers en plus de HDFS, grâce à l'abstraction FileSystem d'Hadoop, tandis que hdfs dfs est spécifiquement conçue pour HDFS.
 
 2. **Pour connaitre la version de hadoop, la commande est : hadoop version (ou hdfs version). Quelle est la version hadoop de sandbox 2.6.5?**
 
